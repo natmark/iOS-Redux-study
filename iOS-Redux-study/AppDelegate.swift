@@ -19,7 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let appStore = Store<AppState>(
             reducer: appReducer,
-            state: nil
+            state: nil,
+            middleware: [rxThunkMiddleWare]
         )
 
         let homeViewController = HomeViewController.create()

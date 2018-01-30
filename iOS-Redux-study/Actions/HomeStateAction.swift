@@ -13,5 +13,7 @@ extension HomeState {
     enum Action: ReSwift.Action {
         case increase
         case decrease
+        case requestSuccess(repositories: [Repository])
+        case requestError(error: Error)
     }
 }

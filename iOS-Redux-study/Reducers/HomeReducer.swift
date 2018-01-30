@@ -18,6 +18,11 @@ extension HomeState {
             state.counter += 1
         case .decrease:
             state.counter -= 1
+        case .requestSuccess(let repositories):
+            state.repositories = repositories
+        case .requestError(let error):
+            state.error = error
+            break
         }
         return state
     }

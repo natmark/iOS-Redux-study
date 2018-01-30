@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import ReSwift
 import RxSwift
+import ReSwift
 import RxCocoa
 
 class HomeViewController: UIViewController {
@@ -33,6 +33,7 @@ class HomeViewController: UIViewController {
         increaseButton.rx.tap
             .subscribe(onNext: { [weak self] in
                 self?.rxReduxStore.dispatch(HomeState.Action.increase)
+                // self?.rxReduxStore.dispatch(GitHubAPIActionCreator.generateListRepositoryAction(userName: "natmark"))
             })
             .disposed(by: disposeBag)
         decreaseButton.rx.tap
@@ -45,6 +46,13 @@ class HomeViewController: UIViewController {
             .map { String($0.homeState.counter) }
             .bind(to: label.rx.text)
             .disposed(by: disposeBag)
+
+//        rxReduxStore.stateObservable
+//            .map { $0.homeState.repositories }
+//            .subscribe(onNext: { repositories in
+//                print(repositories)
+//            })
+//            .disposed(by: disposeBag)
     }
 }
 
