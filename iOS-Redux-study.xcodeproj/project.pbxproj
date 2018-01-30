@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		E749900620209E6400EE84E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749900520209E6400EE84E8 /* AppDelegate.swift */; };
-		E749900820209E6400EE84E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749900720209E6400EE84E8 /* ViewController.swift */; };
-		E749900B20209E6400EE84E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E749900920209E6400EE84E8 /* Main.storyboard */; };
 		E749900D20209E6400EE84E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E749900C20209E6400EE84E8 /* Assets.xcassets */; };
 		E749901020209E6400EE84E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E749900E20209E6400EE84E8 /* LaunchScreen.storyboard */; };
+		E74990192020A58A00EE84E8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74990182020A58A00EE84E8 /* AppState.swift */; };
+		E74990232020A63A00EE84E8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E749901C2020A63900EE84E8 /* RxSwift.framework */; };
+		E74990242020A63A00EE84E8 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E749901D2020A63900EE84E8 /* Kingfisher.framework */; };
+		E74990252020A63A00EE84E8 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E749901E2020A63900EE84E8 /* Result.framework */; };
+		E74990262020A63A00EE84E8 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E749901F2020A63A00EE84E8 /* RxBlocking.framework */; };
+		E74990272020A63A00EE84E8 /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74990202020A63A00EE84E8 /* ReSwift.framework */; };
+		E74990282020A63A00EE84E8 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74990212020A63A00EE84E8 /* RxCocoa.framework */; };
+		E74990292020A63A00EE84E8 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74990222020A63A00EE84E8 /* APIKit.framework */; };
+		E749902D2020AAF700EE84E8 /* HomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749902C2020AAF700EE84E8 /* HomeState.swift */; };
+		E74990302020AB7B00EE84E8 /* HomeStateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749902F2020AB7B00EE84E8 /* HomeStateAction.swift */; };
+		E74990342020ABF500EE84E8 /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74990332020ABF500EE84E8 /* RepositoryModel.swift */; };
+		E74990372020AD0000EE84E8 /* HomeReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74990362020AD0000EE84E8 /* HomeReducer.swift */; };
+		E749903A2020B57F00EE84E8 /* appReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74990392020B57F00EE84E8 /* appReducer.swift */; };
+		E749903D2020BE5E00EE84E8 /* RxReduxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749903C2020BE5E00EE84E8 /* RxReduxStore.swift */; };
+		E74990402020C40D00EE84E8 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749903F2020C40D00EE84E8 /* UIViewController.swift */; };
+		E74990422020C4F800EE84E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74990412020C4F800EE84E8 /* HomeViewController.swift */; };
+		E74990442020C50300EE84E8 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74990432020C50300EE84E8 /* HomeViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E749900220209E6400EE84E8 /* iOS-Redux-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Redux-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E749900520209E6400EE84E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E749900720209E6400EE84E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E749900A20209E6400EE84E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E749900C20209E6400EE84E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E749900F20209E6400EE84E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E749901120209E6400EE84E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74990182020A58A00EE84E8 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		E749901C2020A63900EE84E8 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		E749901D2020A63900EE84E8 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		E749901E2020A63900EE84E8 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		E749901F2020A63A00EE84E8 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		E74990202020A63A00EE84E8 /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		E74990212020A63A00EE84E8 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		E74990222020A63A00EE84E8 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		E749902C2020AAF700EE84E8 /* HomeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeState.swift; sourceTree = "<group>"; };
+		E749902F2020AB7B00EE84E8 /* HomeStateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStateAction.swift; sourceTree = "<group>"; };
+		E74990332020ABF500EE84E8 /* RepositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryModel.swift; sourceTree = "<group>"; };
+		E74990362020AD0000EE84E8 /* HomeReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReducer.swift; sourceTree = "<group>"; };
+		E74990392020B57F00EE84E8 /* appReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appReducer.swift; sourceTree = "<group>"; };
+		E749903C2020BE5E00EE84E8 /* RxReduxStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxReduxStore.swift; sourceTree = "<group>"; };
+		E749903F2020C40D00EE84E8 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		E74990412020C4F800EE84E8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E74990432020C50300EE84E8 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74990232020A63A00EE84E8 /* RxSwift.framework in Frameworks */,
+				E74990242020A63A00EE84E8 /* Kingfisher.framework in Frameworks */,
+				E74990252020A63A00EE84E8 /* Result.framework in Frameworks */,
+				E74990262020A63A00EE84E8 /* RxBlocking.framework in Frameworks */,
+				E74990272020A63A00EE84E8 /* ReSwift.framework in Frameworks */,
+				E74990282020A63A00EE84E8 /* RxCocoa.framework in Frameworks */,
+				E74990292020A63A00EE84E8 /* APIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +77,7 @@
 			children = (
 				E749900420209E6400EE84E8 /* iOS-Redux-study */,
 				E749900320209E6400EE84E8 /* Products */,
+				E749901B2020A63900EE84E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +92,92 @@
 		E749900420209E6400EE84E8 /* iOS-Redux-study */ = {
 			isa = PBXGroup;
 			children = (
+				E749903E2020C3F200EE84E8 /* Extensions */,
+				E749903B2020BE4F00EE84E8 /* Rx */,
+				E74990352020ACAD00EE84E8 /* Reducers */,
+				E74990312020ABD800EE84E8 /* Model */,
+				E749902E2020AB4400EE84E8 /* Actions */,
+				E74990172020A57700EE84E8 /* State */,
 				E749900520209E6400EE84E8 /* AppDelegate.swift */,
-				E749900720209E6400EE84E8 /* ViewController.swift */,
-				E749900920209E6400EE84E8 /* Main.storyboard */,
+				E74990412020C4F800EE84E8 /* HomeViewController.swift */,
+				E74990432020C50300EE84E8 /* HomeViewController.storyboard */,
 				E749900C20209E6400EE84E8 /* Assets.xcassets */,
 				E749900E20209E6400EE84E8 /* LaunchScreen.storyboard */,
 				E749901120209E6400EE84E8 /* Info.plist */,
 			);
 			path = "iOS-Redux-study";
+			sourceTree = "<group>";
+		};
+		E74990172020A57700EE84E8 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				E74990182020A58A00EE84E8 /* AppState.swift */,
+				E749902C2020AAF700EE84E8 /* HomeState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		E749901B2020A63900EE84E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E74990222020A63A00EE84E8 /* APIKit.framework */,
+				E749901D2020A63900EE84E8 /* Kingfisher.framework */,
+				E749901E2020A63900EE84E8 /* Result.framework */,
+				E74990202020A63A00EE84E8 /* ReSwift.framework */,
+				E749901F2020A63A00EE84E8 /* RxBlocking.framework */,
+				E74990212020A63A00EE84E8 /* RxCocoa.framework */,
+				E749901C2020A63900EE84E8 /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E749902E2020AB4400EE84E8 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				E749902F2020AB7B00EE84E8 /* HomeStateAction.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		E74990312020ABD800EE84E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E74990322020ABDF00EE84E8 /* Entity */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E74990322020ABDF00EE84E8 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E74990332020ABF500EE84E8 /* RepositoryModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E74990352020ACAD00EE84E8 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				E74990362020AD0000EE84E8 /* HomeReducer.swift */,
+				E74990392020B57F00EE84E8 /* appReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		E749903B2020BE4F00EE84E8 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				E749903C2020BE5E00EE84E8 /* RxReduxStore.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		E749903E2020C3F200EE84E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E749903F2020C40D00EE84E8 /* UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +190,7 @@
 				E7498FFE20209E6400EE84E8 /* Sources */,
 				E7498FFF20209E6400EE84E8 /* Frameworks */,
 				E749900020209E6400EE84E8 /* Resources */,
+				E749901A2020A59D00EE84E8 /* [Carthage] Run Script */,
 			);
 			buildRules = (
 			);
@@ -123,35 +240,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74990442020C50300EE84E8 /* HomeViewController.storyboard in Resources */,
 				E749901020209E6400EE84E8 /* LaunchScreen.storyboard in Resources */,
 				E749900D20209E6400EE84E8 /* Assets.xcassets in Resources */,
-				E749900B20209E6400EE84E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E749901A2020A59D00EE84E8 /* [Carthage] Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+			);
+			name = "[Carthage] Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7498FFE20209E6400EE84E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E749900820209E6400EE84E8 /* ViewController.swift in Sources */,
+				E74990192020A58A00EE84E8 /* AppState.swift in Sources */,
+				E74990302020AB7B00EE84E8 /* HomeStateAction.swift in Sources */,
+				E74990342020ABF500EE84E8 /* RepositoryModel.swift in Sources */,
+				E74990402020C40D00EE84E8 /* UIViewController.swift in Sources */,
+				E74990372020AD0000EE84E8 /* HomeReducer.swift in Sources */,
+				E749903D2020BE5E00EE84E8 /* RxReduxStore.swift in Sources */,
+				E74990422020C4F800EE84E8 /* HomeViewController.swift in Sources */,
 				E749900620209E6400EE84E8 /* AppDelegate.swift in Sources */,
+				E749903A2020B57F00EE84E8 /* appReducer.swift in Sources */,
+				E749902D2020AAF700EE84E8 /* HomeState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E749900920209E6400EE84E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E749900A20209E6400EE84E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E749900E20209E6400EE84E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,6 +417,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "iOS-Redux-study/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.natmark.iOS-Redux-study";
@@ -291,6 +436,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DEQGLB9PU4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "iOS-Redux-study/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.natmark.iOS-Redux-study";
