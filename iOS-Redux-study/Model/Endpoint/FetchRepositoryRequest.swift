@@ -1,5 +1,5 @@
 //
-//  GitHubEndpoint.swift
+//  FetchRepositoryRequest.swift
 //  iOS-Redux-study
 //
 //  Created by AtsuyaSato on 2018/01/31.

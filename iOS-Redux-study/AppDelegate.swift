@@ -14,6 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    func appReducer(action: Action, state: AppState?) -> AppState {
+        var state = state ?? AppState()
+        state.homeState = HomeState.reducer(action: action, state: state.homeState)
+        return state
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

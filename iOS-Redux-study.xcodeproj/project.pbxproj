@@ -22,14 +22,13 @@
 		E74990302020AB7B00EE84E8 /* HomeStateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749902F2020AB7B00EE84E8 /* HomeStateAction.swift */; };
 		E74990342020ABF500EE84E8 /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74990332020ABF500EE84E8 /* RepositoryModel.swift */; };
 		E74990372020AD0000EE84E8 /* HomeReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74990362020AD0000EE84E8 /* HomeReducer.swift */; };
-		E749903A2020B57F00EE84E8 /* appReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74990392020B57F00EE84E8 /* appReducer.swift */; };
 		E749903D2020BE5E00EE84E8 /* RxReduxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749903C2020BE5E00EE84E8 /* RxReduxStore.swift */; };
 		E74990402020C40D00EE84E8 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E749903F2020C40D00EE84E8 /* UIViewController.swift */; };
 		E74990422020C4F800EE84E8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74990412020C4F800EE84E8 /* HomeViewController.swift */; };
 		E74990442020C50300EE84E8 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74990432020C50300EE84E8 /* HomeViewController.storyboard */; };
 		E7B1E5802020CFDB00E76388 /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B1E57F2020CFDB00E76388 /* IGListKit.framework */; };
 		E7B1E5852020D65600E76388 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E5842020D65600E76388 /* GitHubRequest.swift */; };
-		E7B1E5872020D6F200E76388 /* GitHubEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E5862020D6F200E76388 /* GitHubEndpoint.swift */; };
+		E7B1E5872020D6F200E76388 /* FetchRepositoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E5862020D6F200E76388 /* FetchRepositoryRequest.swift */; };
 		E7B1E5892020D84500E76388 /* Rx+Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E5882020D84500E76388 /* Rx+Session.swift */; };
 		E7B1E58B2020D88F00E76388 /* RxThunkMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E58A2020D88F00E76388 /* RxThunkMiddleware.swift */; };
 		E7B1E58D2020D9B000E76388 /* GitHubManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E58C2020D9B000E76388 /* GitHubManager.swift */; };
@@ -54,14 +53,13 @@
 		E749902F2020AB7B00EE84E8 /* HomeStateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStateAction.swift; sourceTree = "<group>"; };
 		E74990332020ABF500EE84E8 /* RepositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryModel.swift; sourceTree = "<group>"; };
 		E74990362020AD0000EE84E8 /* HomeReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReducer.swift; sourceTree = "<group>"; };
-		E74990392020B57F00EE84E8 /* appReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appReducer.swift; sourceTree = "<group>"; };
 		E749903C2020BE5E00EE84E8 /* RxReduxStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxReduxStore.swift; sourceTree = "<group>"; };
 		E749903F2020C40D00EE84E8 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		E74990412020C4F800EE84E8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E74990432020C50300EE84E8 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 		E7B1E57F2020CFDB00E76388 /* IGListKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListKit.framework; path = Carthage/Build/iOS/IGListKit.framework; sourceTree = "<group>"; };
 		E7B1E5842020D65600E76388 /* GitHubRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
-		E7B1E5862020D6F200E76388 /* GitHubEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubEndpoint.swift; sourceTree = "<group>"; };
+		E7B1E5862020D6F200E76388 /* FetchRepositoryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRepositoryRequest.swift; sourceTree = "<group>"; };
 		E7B1E5882020D84500E76388 /* Rx+Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rx+Session.swift"; sourceTree = "<group>"; };
 		E7B1E58A2020D88F00E76388 /* RxThunkMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxThunkMiddleware.swift; sourceTree = "<group>"; };
 		E7B1E58C2020D9B000E76388 /* GitHubManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubManager.swift; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				E74990362020AD0000EE84E8 /* HomeReducer.swift */,
-				E74990392020B57F00EE84E8 /* appReducer.swift */,
 			);
 			path = Reducers;
 			sourceTree = "<group>";
@@ -213,7 +210,7 @@
 		E7B1E5832020D64000E76388 /* Endpoint */ = {
 			isa = PBXGroup;
 			children = (
-				E7B1E5862020D6F200E76388 /* GitHubEndpoint.swift */,
+				E7B1E5862020D6F200E76388 /* FetchRepositoryRequest.swift */,
 			);
 			path = Endpoint;
 			sourceTree = "<group>";
@@ -321,7 +318,7 @@
 				E7B1E5912020EA0800E76388 /* GitHubAPIActionCreator.swift in Sources */,
 				E74990302020AB7B00EE84E8 /* HomeStateAction.swift in Sources */,
 				E74990342020ABF500EE84E8 /* RepositoryModel.swift in Sources */,
-				E7B1E5872020D6F200E76388 /* GitHubEndpoint.swift in Sources */,
+				E7B1E5872020D6F200E76388 /* FetchRepositoryRequest.swift in Sources */,
 				E7B1E5892020D84500E76388 /* Rx+Session.swift in Sources */,
 				E74990402020C40D00EE84E8 /* UIViewController.swift in Sources */,
 				E74990372020AD0000EE84E8 /* HomeReducer.swift in Sources */,
@@ -329,7 +326,6 @@
 				E74990422020C4F800EE84E8 /* HomeViewController.swift in Sources */,
 				E749900620209E6400EE84E8 /* AppDelegate.swift in Sources */,
 				E7B1E58D2020D9B000E76388 /* GitHubManager.swift in Sources */,
-				E749903A2020B57F00EE84E8 /* appReducer.swift in Sources */,
 				E7B1E5852020D65600E76388 /* GitHubRequest.swift in Sources */,
 				E749902D2020AAF700EE84E8 /* HomeState.swift in Sources */,
 			);
