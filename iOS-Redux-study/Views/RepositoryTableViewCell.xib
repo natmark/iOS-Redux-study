@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RepositoryTableViewCell" rowHeight="101" id="KGk-i7-Jjw" customClass="RepositoryTableViewCell" customModule="iOS_Redux_study" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="100.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2RR-ZK-nA3">
+                        <rect key="frame" x="0.0" y="0.0" width="100.5" height="100.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="2RR-ZK-nA3" secondAttribute="height" multiplier="1:1" id="eLy-yh-usM"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS-Redux-study / natmark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jqb-Hy-sc6">
+                        <rect key="frame" x="108.5" y="16" width="281.5" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="NI1-JM-7Em"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bL-Ed-nEO">
+                        <rect key="frame" x="108.5" y="45" width="281.5" height="39.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6bL-Ed-nEO" firstAttribute="top" secondItem="Jqb-Hy-sc6" secondAttribute="bottom" constant="8" id="E1r-qH-aJf"/>
+                    <constraint firstItem="6bL-Ed-nEO" firstAttribute="leading" secondItem="2RR-ZK-nA3" secondAttribute="trailing" constant="8" id="J3b-Ig-iUO"/>
+                    <constraint firstAttribute="trailing" secondItem="6bL-Ed-nEO" secondAttribute="trailing" constant="8" id="KGa-nG-K5x"/>
+                    <constraint firstItem="2RR-ZK-nA3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ktg-YU-0L0"/>
+                    <constraint firstItem="2RR-ZK-nA3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="V6d-kF-yue"/>
+                    <constraint firstItem="Jqb-Hy-sc6" firstAttribute="leading" secondItem="2RR-ZK-nA3" secondAttribute="trailing" constant="8" id="Xn5-rQ-XTF"/>
+                    <constraint firstAttribute="bottom" secondItem="6bL-Ed-nEO" secondAttribute="bottom" constant="16" id="gbz-aw-Wn7"/>
+                    <constraint firstAttribute="bottom" secondItem="2RR-ZK-nA3" secondAttribute="bottom" id="jAD-Nq-qoY"/>
+                    <constraint firstItem="Jqb-Hy-sc6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="jXF-f9-U9C"/>
+                    <constraint firstAttribute="trailing" secondItem="Jqb-Hy-sc6" secondAttribute="trailing" constant="8" id="wgo-DT-Dkx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="repositoryDescription" destination="6bL-Ed-nEO" id="nSd-I5-VTp"/>
+                <outlet property="repositoryName" destination="Jqb-Hy-sc6" id="KJn-hP-4N0"/>
+                <outlet property="thumbnailImage" destination="2RR-ZK-nA3" id="MWj-Vw-XRD"/>
+            </connections>
+            <point key="canvasLocation" x="-5" y="159.5"/>
+        </tableViewCell>
+    </objects>
+</document>

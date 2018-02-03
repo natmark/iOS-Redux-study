@@ -14,6 +14,7 @@ struct GitHubAPIActionCreator {
     static func generateListRepositoryAction(userName: String) -> Store<AppState>.ActionCreator {
         return { (state: AppState, store: Store<AppState>) in
             if state.homeState.fetching { return nil }
+            store.dispatch(HomeState.Action.requestState(fetching: true))
 
             let s = GitHubManager.shared.repositories(userName: userName)
                 .map {

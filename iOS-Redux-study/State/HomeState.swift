@@ -11,7 +11,6 @@ import ReSwift
 import RxSwift
 
 struct HomeState: StateType {
-    var counter: Int = 0
     var fetching: Bool = false
     var error: Error? = nil
     var requestDisposeBag = DisposeBag()

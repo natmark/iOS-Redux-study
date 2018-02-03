@@ -33,6 +33,9 @@
 		E7B1E58B2020D88F00E76388 /* RxThunkMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E58A2020D88F00E76388 /* RxThunkMiddleware.swift */; };
 		E7B1E58D2020D9B000E76388 /* GitHubManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E58C2020D9B000E76388 /* GitHubManager.swift */; };
 		E7B1E5912020EA0800E76388 /* GitHubAPIActionCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E5902020EA0800E76388 /* GitHubAPIActionCreator.swift */; };
+		E7B1E5C22026090100E76388 /* HomeTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E5C12026090100E76388 /* HomeTableViewDataSource.swift */; };
+		E7B1E5C720260CF100E76388 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B1E5C520260CF100E76388 /* RepositoryTableViewCell.swift */; };
+		E7B1E5C820260CF100E76388 /* RepositoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B1E5C620260CF100E76388 /* RepositoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		E7B1E58A2020D88F00E76388 /* RxThunkMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxThunkMiddleware.swift; sourceTree = "<group>"; };
 		E7B1E58C2020D9B000E76388 /* GitHubManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubManager.swift; sourceTree = "<group>"; };
 		E7B1E5902020EA0800E76388 /* GitHubAPIActionCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPIActionCreator.swift; sourceTree = "<group>"; };
+		E7B1E5C12026090100E76388 /* HomeTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewDataSource.swift; sourceTree = "<group>"; };
+		E7B1E5C520260CF100E76388 /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		E7B1E5C620260CF100E76388 /* RepositoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +117,9 @@
 				E74990352020ACAD00EE84E8 /* Reducers */,
 				E749903B2020BE4F00EE84E8 /* Rx */,
 				E74990172020A57700EE84E8 /* State */,
+				E7B1E5C0202608CB00E76388 /* Views */,
 				E749900520209E6400EE84E8 /* AppDelegate.swift */,
 				E749900C20209E6400EE84E8 /* Assets.xcassets */,
-				E74990432020C50300EE84E8 /* HomeViewController.storyboard */,
-				E74990412020C4F800EE84E8 /* HomeViewController.swift */,
 				E749901120209E6400EE84E8 /* Info.plist */,
 				E749900E20209E6400EE84E8 /* LaunchScreen.storyboard */,
 			);
@@ -215,6 +220,18 @@
 			path = Endpoint;
 			sourceTree = "<group>";
 		};
+		E7B1E5C0202608CB00E76388 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1E5C12026090100E76388 /* HomeTableViewDataSource.swift */,
+				E74990432020C50300EE84E8 /* HomeViewController.storyboard */,
+				E74990412020C4F800EE84E8 /* HomeViewController.swift */,
+				E7B1E5C520260CF100E76388 /* RepositoryTableViewCell.swift */,
+				E7B1E5C620260CF100E76388 /* RepositoryTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -278,6 +295,7 @@
 				E74990442020C50300EE84E8 /* HomeViewController.storyboard in Resources */,
 				E749901020209E6400EE84E8 /* LaunchScreen.storyboard in Resources */,
 				E749900D20209E6400EE84E8 /* Assets.xcassets in Resources */,
+				E7B1E5C820260CF100E76388 /* RepositoryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +345,9 @@
 				E749900620209E6400EE84E8 /* AppDelegate.swift in Sources */,
 				E7B1E58D2020D9B000E76388 /* GitHubManager.swift in Sources */,
 				E7B1E5852020D65600E76388 /* GitHubRequest.swift in Sources */,
+				E7B1E5C720260CF100E76388 /* RepositoryTableViewCell.swift in Sources */,
 				E749902D2020AAF700EE84E8 /* HomeState.swift in Sources */,
+				E7B1E5C22026090100E76388 /* HomeTableViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

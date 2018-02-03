@@ -11,9 +11,8 @@ import ReSwift
 
 extension HomeState {
     enum Action: ReSwift.Action {
-        case increase
-        case decrease
         case requestSuccess(repositories: [Repository])
+        case requestState(fetching: Bool)
         case requestError(error: Error)
     }
 }

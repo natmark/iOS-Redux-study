@@ -14,15 +14,15 @@ extension HomeState {
         var state = state ?? HomeState()
         guard let action = action as? HomeState.Action else { return state }
         switch action {
-        case .increase:
-            state.counter += 1
-        case .decrease:
-            state.counter -= 1
+        case .requestState(let fetching):
+            state.fetching = fetching
+            state.error = nil
         case .requestSuccess(let repositories):
+            state.fetching = false
             state.repositories = repositories
         case .requestError(let error):
+            state.fetching = false
             state.error = error
-            break
         }
         return state
     }
