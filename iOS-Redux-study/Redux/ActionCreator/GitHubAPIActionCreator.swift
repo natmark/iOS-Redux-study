@@ -17,6 +17,7 @@ struct GitHubAPIActionCreator {
             store.dispatch(HomeState.Action.requestState(fetching: true))
 
             let s = GitHubManager.shared.repositories(userName: userName)
+                .asSingle()
                 .map {
                     return HomeState.Action.requestSuccess(repositories: $0)
                 }

@@ -111,12 +111,9 @@
 		E749900420209E6400EE84E8 /* iOS-Redux-study */ = {
 			isa = PBXGroup;
 			children = (
-				E749902E2020AB4400EE84E8 /* Actions */,
-				E749903E2020C3F200EE84E8 /* Extensions */,
+				E7C16370202EAA4300C27DF4 /* Redux */,
+				E749903E2020C3F200EE84E8 /* Extension */,
 				E74990312020ABD800EE84E8 /* Model */,
-				E74990352020ACAD00EE84E8 /* Reducers */,
-				E749903B2020BE4F00EE84E8 /* Rx */,
-				E74990172020A57700EE84E8 /* State */,
 				E7B1E5C0202608CB00E76388 /* Views */,
 				E749900520209E6400EE84E8 /* AppDelegate.swift */,
 				E749900C20209E6400EE84E8 /* Assets.xcassets */,
@@ -153,7 +150,6 @@
 		E749902E2020AB4400EE84E8 /* Actions */ = {
 			isa = PBXGroup;
 			children = (
-				E7B1E5902020EA0800E76388 /* GitHubAPIActionCreator.swift */,
 				E749902F2020AB7B00EE84E8 /* HomeStateAction.swift */,
 			);
 			path = Actions;
@@ -178,30 +174,30 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
-		E74990352020ACAD00EE84E8 /* Reducers */ = {
+		E74990352020ACAD00EE84E8 /* Reducer */ = {
 			isa = PBXGroup;
 			children = (
 				E74990362020AD0000EE84E8 /* HomeReducer.swift */,
 			);
-			path = Reducers;
+			path = Reducer;
 			sourceTree = "<group>";
 		};
-		E749903B2020BE4F00EE84E8 /* Rx */ = {
+		E749903B2020BE4F00EE84E8 /* Redux+Rx */ = {
 			isa = PBXGroup;
 			children = (
 				E749903C2020BE5E00EE84E8 /* RxReduxStore.swift */,
 				E7B1E58A2020D88F00E76388 /* RxThunkMiddleware.swift */,
 			);
-			path = Rx;
+			path = "Redux+Rx";
 			sourceTree = "<group>";
 		};
-		E749903E2020C3F200EE84E8 /* Extensions */ = {
+		E749903E2020C3F200EE84E8 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				E7B1E5882020D84500E76388 /* Rx+Session.swift */,
 				E749903F2020C40D00EE84E8 /* UIViewController.swift */,
 			);
-			path = Extensions;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		E7B1E5822020D63200E76388 /* Protocol */ = {
@@ -230,6 +226,26 @@
 				E7B1E5C620260CF100E76388 /* RepositoryTableViewCell.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E7C16370202EAA4300C27DF4 /* Redux */ = {
+			isa = PBXGroup;
+			children = (
+				E749903B2020BE4F00EE84E8 /* Redux+Rx */,
+				E7C16371202EAAAF00C27DF4 /* ActionCreator */,
+				E749902E2020AB4400EE84E8 /* Actions */,
+				E74990352020ACAD00EE84E8 /* Reducer */,
+				E74990172020A57700EE84E8 /* State */,
+			);
+			path = Redux;
+			sourceTree = "<group>";
+		};
+		E7C16371202EAAAF00C27DF4 /* ActionCreator */ = {
+			isa = PBXGroup;
+			children = (
+				E7B1E5902020EA0800E76388 /* GitHubAPIActionCreator.swift */,
+			);
+			path = ActionCreator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

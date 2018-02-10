@@ -27,7 +27,7 @@ class HomeViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         self.tableView.delegate = self
         dataSource.configure(with: self.tableView)
-        self.rxReduxStore.dispatch(GitHubAPIActionCreator.generateListRepositoryAction(userName: "natmark"))
+    self.rxReduxStore.dispatch(GitHubAPIActionCreator.generateListRepositoryAction(userName: "natmark"))
 
         bind()
     }

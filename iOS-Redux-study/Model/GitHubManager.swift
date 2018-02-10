@@ -15,7 +15,7 @@ class GitHubManager {
     private init() {
     }
 
-    func repositories(userName: String) -> PrimitiveSequence<SingleTrait, [Repository]> {
-        return Session.rx_response(request: FetchRepositoryRequest(userName: userName)).asSingle()
+    func repositories(userName: String) -> Observable<[Repository]> {
+        return Session.rx_response(request: FetchRepositoryRequest(userName: userName))
     }
 }
