@@ -111,9 +111,9 @@
 		E749900420209E6400EE84E8 /* iOS-Redux-study */ = {
 			isa = PBXGroup;
 			children = (
-				E7C16370202EAA4300C27DF4 /* Redux */,
 				E749903E2020C3F200EE84E8 /* Extension */,
 				E74990312020ABD800EE84E8 /* Model */,
+				E7C16370202EAA4300C27DF4 /* Redux */,
 				E7B1E5C0202608CB00E76388 /* Views */,
 				E749900520209E6400EE84E8 /* AppDelegate.swift */,
 				E749900C20209E6400EE84E8 /* Assets.xcassets */,
@@ -231,10 +231,10 @@
 		E7C16370202EAA4300C27DF4 /* Redux */ = {
 			isa = PBXGroup;
 			children = (
-				E749903B2020BE4F00EE84E8 /* Redux+Rx */,
 				E7C16371202EAAAF00C27DF4 /* ActionCreator */,
 				E749902E2020AB4400EE84E8 /* Actions */,
 				E74990352020ACAD00EE84E8 /* Reducer */,
+				E749903B2020BE4F00EE84E8 /* Redux+Rx */,
 				E74990172020A57700EE84E8 /* State */,
 			);
 			path = Redux;
